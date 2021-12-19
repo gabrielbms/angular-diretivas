@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { DiretivaIfService } from './diretiva-if.service';
+import { DiretivaIfService } from './diretiva-ngif.service';
 
 describe('DiretivaIfService', () => {
   let service: DiretivaIfService;

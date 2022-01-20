@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
+import { DiretivaNgclassComponent } from './diretiva-ngclass/diretiva-ngclass.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DiretivaNgifComponent
+    DiretivaNgifComponent,
+    DiretivaNgclassComponent
   ],
   imports: [
     BrowserModule
